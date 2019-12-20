@@ -14,7 +14,7 @@ def cons(a, b):
 
 Implement car and cdr.
 """
-
+# Example of inner functions aka closures
 # timesN accepts a number N and returns a function that accepts x
 # The returned function uses x and N and returns a value (in this case, multiply x and N)
 def timesN(N):
