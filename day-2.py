@@ -8,17 +8,16 @@ Follow-up: what if you can't use division?
 import numpy as np
 
 def remainingProduct(arr):
-    a = arr
     list1 = []
     n = len(arr)
     for i in range(0, n):
-        b = a[0]
-        a.remove(a[0])
-        c = np.prod(a)
+        b = arr[0]
+        arr.remove(arr[0])
+        c = np.prod(arr)
         list1.append(c)
-        a.append(b)
+        arr.append(b)
     return list1
 
-#print(remainingProduct([3, 2, 1]))#[2, 3, 6].
+print(remainingProduct([3, 2, 1]))#[2, 3, 6].
 print(remainingProduct([1, 2, 3, 4, 5])) # [120, 60, 40, 30, 24]
 
