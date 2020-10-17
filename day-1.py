@@ -7,7 +7,7 @@ run time pairSum 0.049 -0.031
 run time for sanlist 0.029
 """
 arr = [10, 15, 3, 7]
-sum = 17
+sum = 22
 def sanlist(arr,sum):
     lis= arr
     s= sum
