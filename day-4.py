@@ -8,8 +8,8 @@ You can modify the input array in-place.
 
 
 def MissingPositive(arr):
-    n = len(arr)
-    minInArray = min([i for i in arr if i >= 0])
+
+    minInArray = 1 #min([i for i in arr if i >= 0])
 
     while minInArray in arr:
         minInArray += 1
@@ -17,8 +17,9 @@ def MissingPositive(arr):
     return minInArray
 
 
-
-print(MissingPositive([3, 4, -1, 1])) # 2
-print(MissingPositive([0, 1, 2])) #3
+print(MissingPositive([3, 4, 5])) # 1
 print(MissingPositive([0, 1,2,3,4,5,6]))#7
 print(MissingPositive([0,2,3,-4,-5,-6]))#1
+
+print(MissingPositive([3, 4, -1, 1])) #2
+print(MissingPositive([0, 1, 2])) #3
