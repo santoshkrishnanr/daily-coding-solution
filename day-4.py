@@ -17,9 +17,9 @@ def MissingPositive(arr):
     return minInArray
 
 
-print(MissingPositive([3, 4, 5])) # 1
-print(MissingPositive([0, 1,2,3,4,5,6]))#7
-print(MissingPositive([0,2,3,-4,-5,-6]))#1
-
-print(MissingPositive([3, 4, -1, 1])) #2
-print(MissingPositive([0, 1, 2])) #3
+print(MissingPositive([2,-1,-3, -4, -5])) # 1
+# print(MissingPositive([0, 1,2,3,4,5,6]))#7
+# print(MissingPositive([0,2,3,-4,-5,-6]))#1
+#
+# print(MissingPositive([3, 4, -1, 1])) #2
+# print(MissingPositive([0, 1, 2])) #3
